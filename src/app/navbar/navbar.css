@@ -1,0 +1,79 @@
+.top-bar {
+    /* background-color: #f4f4f4; */
+    background-color: #e6e3e3 ;
+    color: #333;
+    font-size: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 1.5rem;
+    position: sticky;
+}
+.contact-info {
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 3rem;
+    font-weight: 600;
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.social-icons-a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: transform 0.25;
+}
+.social-icons a:hover {
+    transform: scale(1.1);
+}
+.social-icons svg {
+    width: 18px;
+    height: 18px;
+}
+.separator {
+  font-weight: bold;
+  color: #555;
+  transform: scaleY(1.5); 
+ 
+}
+.navbar {
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    /* box-shadow: 0 2px 8px rgba(0,0,0,0.1); */
+}
+.logo {
+    display: flex;
+}
+.brand-link {
+    align-items: center;
+    text-decoration: none;
+}
+.brand-logo {
+    height: 57px;
+    width: 75px;
+}
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 25px;
+}
+.navbar-menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+.navbar-menu li a:hover {
+  color: darkslategrey; 
+}
